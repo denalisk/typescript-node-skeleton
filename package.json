@@ -1,0 +1,22 @@
+{
+    "name": "pbi-project-extraction",
+    "version": "1.0.0",
+    "description": "A basic node script using typescript",
+    "main": "main.js",
+    "scripts": {
+      "build": "tsc",
+      "execute": "node ./dist/main.js",
+      "clean": "node clean.js",
+      "start": "npm run clean && npm run build && npm run execute",
+      "test": "npm run clean && npm run build && jasmine ./dist/**/*spec.js",
+      "debug": "npm run clean && npm run build && node --inspect ./dist/main.js"
+    },
+    "keywords": [],
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {
+      "@types/node": "^17.0.31",
+      "typescript": "^4.6.4"
+    }
+  }
+  
