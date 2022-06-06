@@ -9,8 +9,9 @@ Current skeleton was created with:
 * Node 18.2.0
 * npm 8.9.0
 
-**N.B.** strongly advised to use a node version manager ([such as NVM for windows](https://github.com/coreybutler/nvm-windows))
+The "test" script option is most useful with VS Code. Possible the npm script won't work from a non-windows machine, haven't tested...
 
+**N.B.** strongly advised to use a node version manager ([such as NVM for windows](https://github.com/coreybutler/nvm-windows))
 
 ## Project setup
 
@@ -22,6 +23,6 @@ To setup the project, navigate to the same directory as this README and run `npm
 * `"npm run clean"`: deletes the `./dist` directory and all contents
 * `"npm run start"`: cleans, builds, and executes
 * `"npm run test"`: cleans, builds, and runs all tests (spec.ts files)
-* `"npm run debug"`: cleans, builds, and runs with the `--inspect` flag. Automatically hooks up the debugger and breakpoints if run from a VSCODE terminal at the `./tools/pbi-project-extraction` directory
+* `"npm run debug"`: cleans, builds, and runs with the `--inspect` flag. Automatically hooks up the debugger and breakpoints if run from a VSCODE terminal at the base directory
 
 
