@@ -4,22 +4,21 @@
     "description": "A basic node script using typescript",
     "main": "main.js",
     "scripts": {
-      "build": "tsc",
-      "execute": "node ./dist/main.js",
-      "clean": "node clean.js",
-      "start": "npm run clean && npm run build && npm run execute",
-      "test": "npm run clean && npm run build && jasmine ./dist/**/*spec.js",
-      "debug": "npm run clean && npm run build && node --inspect ./dist/main.js"
+        "build": "tsc",
+        "execute": "node ./dist/main.js",
+        "clean": "node clean.js",
+        "start": "npm run clean && npm run build && npm run execute",
+        "test": "npm run clean && npm run build && jasmine ./dist/**/*spec.js",
+        "debug": "npm run clean && npm run build && node --inspect ./dist/main.js"
     },
     "keywords": [],
     "license": "MIT",
     "devDependencies": {
-        "@types/jasmine": "^4.0.3",
-        "jasmine": "^4.1.0"
+        "@types/jasmine": "^5.1.12",
+        "jasmine": "^5.12.0"
     },
     "dependencies": {
-      "@types/node": "^17.0.31",
-      "typescript": "^4.6.4"
+        "@types/node": "^24.10.1",
+        "typescript": "^5.9.3"
     }
-  }
-  
+}
